@@ -12,7 +12,7 @@ public class MsgSender {
 	
 	public static void main(String[] args) throws Exception {
 		InitialContext context = new InitialContext();
-		Destination destination = (Destination) context.lookup("FluentCodeQueue");
+		Destination destination = (Destination) context.lookup("FluentCodeTopic");
 		ConnectionFactory connectionFactory = (ConnectionFactory) context.lookup("jms/RemoteConnectionFactory");
 		Connection connection = connectionFactory.createConnection("elton","123");
 		Session session = connection.createSession(false, Session.AUTO_ACKNOWLEDGE);
