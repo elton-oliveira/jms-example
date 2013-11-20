@@ -3,8 +3,8 @@ Therefore, to start JBoss you must explicitly use a different configuration that
 
 standalone.bat --server-config=standalone-full.xml
 
-To create a queue in JBoss 7 you would have to make sure you give “java:jboss/exported/” before giving the 
-JNDI name of the queue. 
+To create a destination (queue or topic) in JBoss 7 you would have to make sure you give “java:jboss/exported/” before giving the 
+JNDI name of the destination. 
 
 In the standalone/configuration/standalone-full.xml file need to give permission for the Application User role send 
 and consume messages. If the role is dev, then:
