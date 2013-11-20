@@ -29,4 +29,6 @@ To this:
                         <permission type="deleteNonDurableQueue" roles="guest"/>
                     </security-setting>
                 </security-settings>
-
+                
+If you prefer JBoss Web Interface:  Administration Console > Profile > Messaging Provider > View.
+On the Security tab, just click Add  and configure the role.
