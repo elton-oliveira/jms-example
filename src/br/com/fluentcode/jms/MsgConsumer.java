@@ -32,6 +32,7 @@ public class MsgConsumer {
 			Message message = messageConsumer.receive();
 			TextMessage textMessage = (TextMessage) message;
 			System.out.println(textMessage.getText());
+			connection.close();
 		}
 		
 		

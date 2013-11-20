@@ -20,8 +20,8 @@ public class MsgSender {
 		TextMessage textMessage = session.createTextMessage();
 		textMessage.setText("Planejamento é essencial!");
 		messageProducer.send(textMessage);
-		connection.close();
 		System.out.println("Mensagem enviada!");
+		connection.close();
 	}
 
 }
