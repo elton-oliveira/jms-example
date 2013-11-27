@@ -18,7 +18,7 @@ public class MsgSender {
 		Session session = connection.createSession(false, Session.AUTO_ACKNOWLEDGE);
 		MessageProducer messageProducer = session.createProducer(destination);
 		TextMessage textMessage = session.createTextMessage();
-		textMessage.setText("Planejamento é essencial!");
+		textMessage.setText("Planning is essential!");
 		messageProducer.send(textMessage);
 		System.out.println("Mensagem enviada!");
 		connection.close();
