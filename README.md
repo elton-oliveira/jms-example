@@ -10,6 +10,8 @@ Therefore, to start JBoss you must explicitly use a different configuration that
 To create a destination (queue or topic) in JBoss 7 you would have to make sure you give “java:jboss/exported/” before giving the 
 JNDI name of the destination. 
 
+Create a topic named FluentCodeTopic.
+
 ## 3) Permission  send/consume messages ##
 
 In the standalone/configuration/standalone-full.xml file need to give permission for the Application User role send 
