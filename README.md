@@ -7,7 +7,7 @@ Therefore, to start JBoss you must explicitly use a different configuration that
 
 ## 2) Create Destination ##
 
-To create a destination (queue or topic) in JBoss 7 you would have to make sure you give “java:jboss/exported/” before giving the 
+To create a destination (queue or topic) in JBoss 7.1.1 you would have to make sure you give “java:jboss/exported/” before giving the 
 JNDI name of the destination. 
 
 Create a topic named FluentCodeTopic.
