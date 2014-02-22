@@ -1,6 +1,6 @@
 ## 1) Enabling JBoss Messaging ##
 
-By default JBoss 7 doesn't start with messaging.
+By default JBoss 7.1.1 doesn't start with messaging.
 Therefore, to start JBoss you must explicitly use a different configuration that enables messaging:
 
     standalone.bat --server-config=standalone-full.xml
